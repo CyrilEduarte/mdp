@@ -1,0 +1,59 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	
+}
+body::-webkit-scrollbar {
+ 	display: none;
+}
+.navbar{
+ 	background-image: linear-gradient(to left, rgba(3,127,108),rgba(117,223,168));
+ 	font-family: 'Raleway', sans-serif;
+}
+.nav-link{
+	transition:0.3s ease-in;
+	margin-left: 5px;
+	padding: 4px;
+	border-bottom: 2px solid transparent;
+}
+.nav-link:hover{
+	border-bottom: 2px solid yellow;
+}
+.welcome{
+	height: 100vh;
+  	min-height: 500px;
+  	background-image: url('https://i.ibb.co/ySTkkJN/a-green.jpg');
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	filter: brightness(101%);
+}
+.colored-section{
+	background-image: linear-gradient(to left, rgba(3,127,108),rgba(117,223,168));
+}
+.trio-highlight{
+	background-color: #037F6A; 
+	padding:.20em; 
+	color: #fefefe; 
+	font-weight: 600;
+}
+.title-text{
+	font-weight: 700;
+	transition: .3s;
+}
+.title-text:hover{
+	color:#037F6A;
+}
+.paratext{
+}
+.btn-green{
+	background-color: #037F6A;
+	color: white;
+	transition: .3s;
+}
+.btn-green:hover{
+	background-color: #33A08E;
+	color:white;
+}
